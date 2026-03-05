@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Removex Logistics | UK Removals, Freight & 3PL",
   description:
     "Trusted UK removals and logistics — house removals, freight, warehousing, 3PL, and rubbish removal. Professional, reliable, on time.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
