@@ -33,13 +33,13 @@ const servicesPreview = [
     title: "House Removals & Moving",
     description: "Residential and commercial moves with care and punctuality.",
     href: "/services",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1683121732400-d0f4820801ea?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Freight & Transport",
     description: "Pallet transport, commercial freight, and long-distance delivery across the UK.",
     href: "/services",
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1661907153090-93759d68acb1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Warehousing & 3PL",
@@ -51,7 +51,7 @@ const servicesPreview = [
     title: "Rubbish Removal",
     description: "Household and commercial waste clearance, furniture disposal, clearances.",
     href: "/services",
-    image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+    image: "https://plus.unsplash.com/premium_photo-1681152790475-43ce66798899?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 

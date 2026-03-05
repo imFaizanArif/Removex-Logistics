@@ -111,8 +111,8 @@ export default function ContactPage() {
                   <IconMapPin className="h-6 w-6" />
                 </span>
                 <h3 className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-500">Location</h3>
-                <p className="mt-1 text-xl font-bold text-slate-900">United Kingdom</p>
-                <p className="mt-1 text-sm text-slate-600">Serving clients across the UK</p>
+                <p className="mt-1 text-xl font-bold text-slate-900">40 Ashford Road, E6 2aw</p>
+                <p className="mt-1 text-sm text-slate-600">United Kingdom</p>
               </motion.div>
             </motion.div>
             <motion.div
@@ -128,10 +128,10 @@ export default function ContactPage() {
                 </span>
                 <h3 className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-500">Email</h3>
                 <a
-                  href="mailto:info@logictcxremal.com"
+                  href="mailto:info@removexlogistics.com"
                   className="mt-1 break-all text-lg font-bold text-slate-900 underline-offset-2 transition hover:text-[#0F2E6B] hover:underline"
                 >
-                  info@logictcxremal.com
+                  info@removexlogistics.com
                 </a>
                 <p className="mt-2 text-sm text-slate-600">We aim to reply within 24 hours</p>
               </motion.div>

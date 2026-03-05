@@ -5,10 +5,16 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { fadeUp, staggerContainer, defaultEase } from "@/lib/animations";
 
-const services: { title: string; description: string; bullets: string[]; image?: string }[] = [
+const services: {
+  title: string;
+  description: string;
+  bullets: string[];
+  image?: string;
+}[] = [
   {
     title: "Transportation & Freight Services",
-    description: "Removex Logistics provides reliable transportation and freight services across the UK for businesses and individuals requiring secure and timely delivery of goods.",
+    description:
+      "Removex Logistics provides reliable transportation and freight services across the UK for businesses and individuals requiring secure and timely delivery of goods.",
     bullets: [
       "Pallet transport",
       "Commercial freight delivery",
@@ -16,22 +22,26 @@ const services: { title: string; description: string; bullets: string[]; image?:
       "Scheduled delivery services",
       "Long-distance transport solutions",
     ],
-    image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80",
+    image:
+      "https://plus.unsplash.com/premium_photo-1661907153090-93759d68acb1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Warehousing & Storage Solutions",
-    description: "We offer flexible warehousing and storage services for both short-term and long-term requirements.",
+    description:
+      "We offer flexible warehousing and storage services for both short-term and long-term requirements.",
     bullets: [
       "Homeowners between moves",
       "Business inventory storage",
       "Retail stock management",
       "Equipment and furniture storage",
     ],
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
   },
   {
     title: "3PL (Third-Party Logistics) Services",
-    description: "Professional Third-Party Logistics (3PL) solutions for businesses outsourcing logistics operations.",
+    description:
+      "Professional Third-Party Logistics (3PL) solutions for businesses outsourcing logistics operations.",
     bullets: [
       "Inventory management",
       "Order fulfilment",
@@ -39,11 +49,13 @@ const services: { title: string; description: string; bullets: string[]; image?:
       "Last-mile delivery",
       "Supply chain coordination",
     ],
-    image: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&q=80",
   },
   {
     title: "Value-Added & Specialist Services",
-    description: "Tailored specialist services to meet unique client requirements.",
+    description:
+      "Tailored specialist services to meet unique client requirements.",
     bullets: [
       "Furniture assembly and disassembly",
       "Handling of fragile and high-value items",
@@ -51,11 +63,13 @@ const services: { title: string; description: string; bullets: string[]; image?:
       "Scheduled contract logistics",
       "Custom moving solutions",
     ],
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    image:
+      "https://plus.unsplash.com/premium_photo-1683121732400-d0f4820801ea?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Rubbish Removal Services",
-    description: "Professional rubbish removal for residential and commercial clients.",
+    description:
+      "Professional rubbish removal for residential and commercial clients.",
     bullets: [
       "Household rubbish removal",
       "Old furniture disposal",
@@ -63,11 +77,13 @@ const services: { title: string; description: string; bullets: string[]; image?:
       "Office waste clearance",
       "Post-move cleanouts",
     ],
-    image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80",
+    image:
+      "https://plus.unsplash.com/premium_photo-1681152790475-43ce66798899?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     title: "Household Rubbish Moving",
-    description: "Reliable household rubbish moving services during or after relocation.",
+    description:
+      "Reliable household rubbish moving services during or after relocation.",
     bullets: [
       "Old sofas and mattresses",
       "Broken furniture",
@@ -75,7 +91,8 @@ const services: { title: string; description: string; bullets: string[]; image?:
       "General household waste",
       "Garden waste (where applicable)",
     ],
-    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&q=80",
+    image:
+      "https://plus.unsplash.com/premium_photo-1680300960805-e76bb338d59e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -113,7 +130,8 @@ export default function ServicesPage() {
             transition={{ delay: 0.2, duration: 0.4 }}
             className="mt-4 max-w-2xl mx-auto text-lg text-blue-100/90"
           >
-            End-to-end removals, freight, warehousing, 3PL, and rubbish removal across the UK.
+            End-to-end removals, freight, warehousing, 3PL, and rubbish removal
+            across the UK.
           </motion.p>
         </div>
       </section>
@@ -139,7 +157,10 @@ export default function ServicesPage() {
             {services.map((service, index) => (
               <motion.article
                 key={service.title}
-                variants={{ initial: { opacity: 0, y: 28 }, whileInView: { opacity: 1, y: 0 } }}
+                variants={{
+                  initial: { opacity: 0, y: 28 },
+                  whileInView: { opacity: 1, y: 0 },
+                }}
                 transition={{ duration: 0.5, ease: defaultEase }}
                 className={`grid gap-10 lg:grid-cols-2 lg:gap-14 lg:items-center ${
                   index % 2 === 1 ? "lg:flex-row-reverse" : ""
@@ -163,14 +184,21 @@ export default function ServicesPage() {
                 </div>
                 <div className={index % 2 === 1 ? "lg:order-1" : ""}>
                   <motion.div whileHover={{ y: -2 }} className="relative">
-                    <span className="text-sm font-semibold uppercase tracking-wider text-amber-600">Our services</span>
+                    <span className="text-sm font-semibold uppercase tracking-wider text-amber-600">
+                      Our services
+                    </span>
                     <h2 className="mt-2 text-xl font-bold bg-gradient-to-r from-[#0F2E6B] to-[#1e3a8a] bg-clip-text text-transparent sm:text-2xl">
                       {service.title}
                     </h2>
-                    <p className="mt-4 text-slate-600 leading-relaxed text-base sm:text-lg">{service.description}</p>
+                    <p className="mt-4 text-slate-600 leading-relaxed text-base sm:text-lg">
+                      {service.description}
+                    </p>
                     <ul className="mt-5 space-y-2.5">
                       {service.bullets.map((bullet) => (
-                        <li key={bullet} className="flex items-start gap-3 text-slate-600">
+                        <li
+                          key={bullet}
+                          className="flex items-start gap-3 text-slate-600"
+                        >
                           <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-amber-500" />
                           {bullet}
                         </li>
@@ -188,7 +216,10 @@ export default function ServicesPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <motion.span whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+            <motion.span
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.98 }}
+            >
               <Link
                 href="/contact"
                 className="inline-flex items-center rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 px-6 py-3.5 font-semibold text-slate-900 shadow-lg shadow-amber-900/25 transition hover:opacity-95"
