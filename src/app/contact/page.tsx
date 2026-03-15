@@ -149,10 +149,10 @@ export default function ContactPage() {
                 </span>
                 <h3 className="mt-4 text-sm font-semibold uppercase tracking-wider text-slate-500">Phone</h3>
                 <a
-                  href="tel:+447424452729"
+                  href="tel:+447448647267"
                   className="mt-1 text-xl font-bold text-slate-900 transition hover:text-[#0F2E6B]"
                 >
-                  +44 7424 452729
+                  +44 7448 647267
                 </a>
                 <p className="mt-2 text-sm text-slate-600">Call or text for quick enquiries</p>
               </motion.div>
@@ -170,7 +170,7 @@ export default function ContactPage() {
             </p>
             <div className="mt-6">
               <Link
-                href="tel:+447424452729"
+                href="tel:+447448647267"
                 className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-5 py-2.5 font-semibold text-slate-900 transition hover:bg-amber-400"
               >
                 <IconPhone className="h-5 w-5" />

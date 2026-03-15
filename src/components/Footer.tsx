@@ -144,13 +144,13 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="tel:+447424452729"
+                    href="tel:+447448647267"
                     className="flex items-center gap-3 rounded-lg p-2 -m-2 text-sm text-slate-400 transition hover:text-amber-400 hover:bg-slate-800/50"
                   >
                     <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-slate-700/80 text-amber-400">
                       <IconPhone className="h-4 w-4" />
                     </span>
-                    +44 7424 452729
+                    +44 7448 647267
                   </a>
                 </li>
               </ul>
